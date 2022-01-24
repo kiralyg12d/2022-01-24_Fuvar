@@ -25,7 +25,7 @@ namespace _2022_01_24_Fuvar
             Tavolsag = double.Parse(t[3]);
             Viteldij = double.Parse(t[4]);
             Borravalo = double.Parse(t[5]);
-            FizetesMod = t[6]
+            FizetesMod = t[6];
             
         }
 
