@@ -72,6 +72,21 @@ namespace _2022_01_24_Fuvar
                 Console.WriteLine($"\t{s.Key}: {s.Value} fuvar");
             }
 
+
+
+            //
+
+            fuvarok
+                .GroupBy(x => x.FizetesMod)
+                .Select(g => new { fizetesmod = g.Key, db = g.Count() })
+                .ToList()
+                .ForEach(x => Console.WriteLine($"\t{x.fizetesmod}: {x.db} fuvar"));
+
+
+
+
+
+
             Console.ReadKey();
         }
     }
