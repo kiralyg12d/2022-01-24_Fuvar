@@ -36,6 +36,26 @@ namespace _2022_01_24_Fuvar
 
             }
             Console.WriteLine($"4.feladat: {db} fuvar alatt: {Bevétel}$");
+            
+           // int bankkartyas = 0;
+            //int keszpenz = 0;
+
+           // foreach (var f in fuvarok)
+            //{
+                //if (f.FizetesMod == "bankkártya")
+                //{
+                    //bankkartyas++;
+                //}
+                //if (f.FizetesMod == "keszpenz")
+                //{
+                  //  keszpenz++;
+              //  }
+            //}
+            
+
+
+
+
 
             Console.ReadKey();
         }
