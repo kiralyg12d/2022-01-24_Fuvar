@@ -66,6 +66,12 @@ namespace _2022_01_24_Fuvar
                 }
             }
 
+            Console.WriteLine($"5.feladat: ");
+            foreach (var s in stat)
+            {
+                Console.WriteLine($"\t{s.Key}: {s.Value} fuvar");
+            }
+
             Console.ReadKey();
         }
     }
