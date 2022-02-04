@@ -74,18 +74,21 @@ namespace _2022_01_24_Fuvar
 
 
 
-         
+
 
             //fuvarok
-                //.GroupBy(x => x.FizetesMod)
-                //.Select(g => new { fizetesmod = g.Key, db = g.Count() })
-                //.ToList()
-                //.ForEach(x => Console.WriteLine($"\t{x.fizetesmod}: {x.db} fuvar"));
+            //.GroupBy(x => x.FizetesMod)
+            //.Select(g => new { fizetesmod = g.Key, db = g.Count() })
+            //.ToList()
+            //.ForEach(x => Console.WriteLine($"\t{x.fizetesmod}: {x.db} fuvar"));
 
 
-
-
-
+            double osszMF = 0;
+            foreach (var f in fuvarok)
+            {
+                osszMF += f.Tavolsag;
+            }
+            Console.WriteLine($"6. feladat:{osszMF * 1.6:0.00}");
 
             Console.ReadKey();
         }
