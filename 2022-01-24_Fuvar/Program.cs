@@ -90,6 +90,18 @@ namespace _2022_01_24_Fuvar
             }
             Console.WriteLine($"6. feladat:{osszMF * 1.6:0.00}");
 
+
+            int maxindex = 0;
+            
+            for (int i = 0; i < fuvarok.Count; i++)
+            {
+
+            }
+
+
+
+
+
             Console.ReadKey();
         }
     }
